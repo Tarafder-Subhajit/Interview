@@ -1,0 +1,25 @@
+1. Explain Linux architecture.
+2. What is systemd in Linux?
+3. Explain systemctl and journalctl.
+4. What is a Linux shell? Explain different types of shells.
+5. What is a shebang line in a script?
+6. Explain the Linux file hierarchy.
+7. Explain file permissions in Linux.
+8. What is the difference between yum and rpm?
+9. What is a cron job? How do you schedule a job?
+10. What is the use of the sed command?
+11. Explain different filtering commands: sed, awk, find, grep.
+12. Explain user management commands in Linux.
+13. How do you check permissions for a file?
+14. Difference between a soft link and a hard link?
+15. How do you take a compressed backup of a file in Linux?
+16. Explain different networking commands in Linux.
+17. How do you check if a service port is open?
+18. How do you check the status of a service process?
+19. What are disk monitoring commands in Linux?
+20. How do you handle a corrupted file system? Explain the magic block error.
+21. What are different package management commands in Linux?
+22. How do you kill a particular process in Linux?
+23. How to search inside a file?
+24. How to check if a port is listening?
+25. Why we used shell script in linux?
