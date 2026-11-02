@@ -13,3 +13,36 @@
   - Install Docker
   - Enable docker & containerd service
   - Start the docker service
+
+# Jenkinsfile with Docker
+Github Repo - https://github.com/DevopsWorking/addressbook
+```
+pipeline{
+  agent any
+  tools{
+    maven 'Maven'
+  }
+  stages{
+    stage('Checkout'){
+      steps{
+        <generate the github repo checkout code from snippet generator>
+      }
+    }
+    stage('Maven build'){
+      steps{
+        sh 'mvn package'
+      }
+    }
+    stage('Docker build'){
+      steps{
+        sh 'docker build -t addressbook .'
+      }
+    }
+    stage('Docker list images'){
+      steps{
+        sh 'docker images'
+      }
+    }
+  }
+}
+```
