@@ -1,13 +1,13 @@
-1. Explain Linux architecture.   ---> https://linuxsimply.com/linux-basics/introduction/architecture-of-linux-operating-system/
-2. What is systemd in Linux?
-3. Explain systemctl and journalctl.
-4. What is a Linux shell? Explain different types of shells.
+1. Explain Linux architecture. What is a Linux shell? Explain different types of shells.   ---> https://linuxsimply.com/linux-basics/introduction/architecture-of-linux-operating-system/
+2. What is systemd in Linux? Explain systemctl and journalctl. 
+3. 
+4. 
 5. What is a shebang line in a script?
 6. Explain the Linux file hierarchy.
 7. Explain file permissions in Linux.
 8. What is the difference between yum and rpm?
 9. What is a cron job? How do you schedule a job?
-10. What is the use of the sed command?
+10. 
 11. Explain different filtering commands: sed, awk, find, grep.
 12. Explain user management commands in Linux.
 13. How do you check permissions for a file?
