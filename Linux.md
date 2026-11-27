@@ -50,8 +50,8 @@ bash script.sh
 ```
 
 8. Explain the Linux file hierarchy.
-   https://www.geeksforgeeks.org/linux-unix/linux-directory-structure/
-     
+ https://linuxhandbook.com/linux-directory-structure/
+
 10. Explain file permissions in Linux.
 11. What is the difference between yum and rpm?
 12. What is a cron job? How do you schedule a job?
