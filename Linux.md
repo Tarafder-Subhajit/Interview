@@ -33,23 +33,41 @@ systemctl enable nginx configures Nginx to start automatically during boot, but 
 4. 
 5. 
 6. What is a shebang line in a script?
-7. Explain the Linux file hierarchy.
-8. Explain file permissions in Linux.
-9. What is the difference between yum and rpm?
-10. What is a cron job? How do you schedule a job?
-11. 
-12. Explain different filtering commands: sed, awk, find, grep.
-13. Explain user management commands in Linux.
-14. How do you check permissions for a file?
-15. Difference between a soft link and a hard link?
-16. How do you take a compressed backup of a file in Linux?
-17. Explain different networking commands in Linux.
-18. How do you check if a service port is open?
-19. How do you check the status of a service process?
-20. What are disk monitoring commands in Linux?
-21. How do you handle a corrupted file system? Explain the magic block error.
-22. What are different package management commands in Linux?
-23. How do you kill a particular process in Linux?
-24. How to search inside a file?
-25. How to check if a port is listening?
-26. Why we used shell script in linux?
+**Answer** A shebang line is the first line of a script that tells Linux or Unix which interpreter should execute it.  
+```
+#!/bin/bash
+```
+- #! is called the shebang
+- /bin/bash is the interpreter used to run the script
+```
+#!/bin/bash
+#!/usr/bin/env python3
+#!/usr/bin/env node
+```
+Without shebang, we need to specify the interpreter exclusively
+```
+bash script.sh
+```
+
+8. Explain the Linux file hierarchy.
+   https://www.geeksforgeeks.org/linux-unix/linux-directory-structure/
+     
+10. Explain file permissions in Linux.
+11. What is the difference between yum and rpm?
+12. What is a cron job? How do you schedule a job?
+13. 
+14. Explain different filtering commands: sed, awk, find, grep.
+15. Explain user management commands in Linux.
+16. How do you check permissions for a file?
+17. Difference between a soft link and a hard link?
+18. How do you take a compressed backup of a file in Linux?
+19. Explain different networking commands in Linux.
+20. How do you check if a service port is open?
+21. How do you check the status of a service process?
+22. What are disk monitoring commands in Linux?
+23. How do you handle a corrupted file system? Explain the magic block error.
+24. What are different package management commands in Linux?
+25. How do you kill a particular process in Linux?
+26. How to search inside a file?
+27. How to check if a port is listening?
+28. Why we used shell script in linux?
